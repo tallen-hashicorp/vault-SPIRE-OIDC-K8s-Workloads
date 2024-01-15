@@ -1,0 +1,3 @@
+[submodule "spire-tutorials"]
+	path = spire-tutorials
+	url = git@github.com:spiffe/spire-tutorials.git
