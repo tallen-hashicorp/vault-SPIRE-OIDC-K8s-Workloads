@@ -91,7 +91,7 @@ kubectl apply \
 ## Setup Port Forward
 > **_NOTE:_** Do this in another terminal
 ```bash
-
+kubectl -n spire port-forward services/spire-oidc 443
 ```
 
 ## Create the Config File and Run the Vault Server
